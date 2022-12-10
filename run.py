@@ -144,9 +144,10 @@ def main():
     sales_columns = get_last_5_entries_sales()
     stock_data = calculate_stock_data(sales_columns)
     update_worksheet(stock_data, "stock")
+    print("Make the following numbers of sandwiches for next market:\n")
     print(stock_data)
 
 
 print("Welcome to Love Sandwiches Data Automation\n")
 main()
-
+print("End of Love Sandwiches program. Good-bye!\n")
